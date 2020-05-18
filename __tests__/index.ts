@@ -1,9 +1,9 @@
-import { addTimezoneMiddleware, whitelistFields } from "../src/index"
+import { addTimezone, whitelistFields } from "../src/index"
 
-describe("addTimezoneMiddleware", () => {
+describe("addTimezone", () => {
   it("constantly overwrites the query timezone", () => {
     const expectedTz = "Europe/Paris"
-    const middleware = addTimezoneMiddleware(expectedTz)
+    const middleware = addTimezone(expectedTz)
     const req: any = { query: { timezone: "US/Pacific" } }
 
     middleware(req, {} as any, () => {})

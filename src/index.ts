@@ -1,6 +1,6 @@
 import { Request, Response } from "express"
 
-export function addTimezoneMiddleware(timezone = process.env.TZ) {
+export function addTimezone(timezone = process.env.TZ) {
   return (request: Request, response: Response, next: () => any) => {
     // This query param is required and client cannot alter it
     if (timezone) {
