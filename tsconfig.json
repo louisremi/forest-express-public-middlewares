@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    // lib, module and target for Node 10 from https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
+    "lib": ["ES2018"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "ES2018",
+    "strict": true,
+    "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
+
+    "baseUrl": "./",
+    "outDir": "build",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */,
+    "strictNullChecks": true /* In strict null checking mode, the null and undefined values are not in the domain of every type and are only assignable to themselves and any (the one exception being that undefined is also assignable to void). */,
+
+    "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
+  }
+}

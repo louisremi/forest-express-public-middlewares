@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`whitelistFields removes non-whitelisted fields from query params and executes warning function for each field removed 1`] = `
+Array [
+  "field \`user.fullAddress\` won't be included in the response as it isn't whitelisted",
+  "field \`room.rent\` won't be included in the response as it isn't whitelisted",
+  "model \`city\` won't be included in the response as it isn't whitelisted",
+]
+`;

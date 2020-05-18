@@ -1,0 +1,40 @@
+{
+  "name": "forest-express-public-middlewares",
+  "version": "1.0.0",
+  "description": "A collection of express midlewares to reuse parts of your Forest APIs on your frontend",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/louisremi/forest-express-public-middlewares.git"
+  },
+  "keywords": [
+    "forestAdmin",
+    "forest",
+    "admin",
+    "express",
+    "REST",
+    "API"
+  ],
+  "author": "@louis_remi",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/louisremi/forest-express-public-middlewares/issues"
+  },
+  "homepage": "https://github.com/louisremi/forest-express-public-middlewares#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/jest": "^25.2.2",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "git-hooks": "^1.1.10",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.0.0",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
+  }
+}
